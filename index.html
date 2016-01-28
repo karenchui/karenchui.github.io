@@ -34,45 +34,26 @@ layout: default
         </div>
 </section>
 
-  <div class="album-container">
-    <div class="album" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/cusco.jpg') no-repeat center/cover;">
+<div class="album-container">
+    {% for album in site.albums limit:3 %}
+
+    <div class="album" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('{{ site.url }}/img/{{ album.pictures[0].image }}') no-repeat center/cover;">
+      <a href="{{ album.url }}">
       <div class="album-caption">
           <div class="album-caption-content">
               <div class="album-category text-faded">
-                  Album One
+                  {{ album.title }}
               </div>
               <div class="album-name">
-                  Project Name
+                  {{ album.description }}
               </div>
           </div>
       </div>
+      </a>
     </div>
-    <div class="album" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/tatyana.jpg') no-repeat center/cover;">
-      <div class="album-caption">
-          <div class="album-caption-content">
-              <div class="album-category text-faded">
-                  Album One
-              </div>
-              <div class="album-name">
-                  Project Name
-              </div>
-          </div>
-      </div>
-    </div>
-    <div class="album" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/nina-1.jpg') no-repeat center/cover;">
-      <div class="album-caption">
-          <div class="album-caption-content">
-              <div class="album-category text-faded">
-                  Album One
-              </div>
-              <div class="album-name">
-                  Project Name
-              </div>
-          </div>
-      </div>
-    </div>
-  </div>
-  
+    {% endfor %}
+</div>
+
   <section class="bg-primary" id="music" style="background: linear-gradient(rgba(38, 50, 56, 0.95), rgba(38, 50, 56, 0.95)), url('../img/nina-1.jpg') no-repeat center/cover;">
           <div class="container">
               <div class="row">

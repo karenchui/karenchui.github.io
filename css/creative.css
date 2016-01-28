@@ -68,6 +68,11 @@ section {
     padding: 70px 0;
 }
 
+.album-header {
+  min-height: 400px;
+  padding: 150px;
+}
+
 aside {
     padding: 50px 0;
 }
@@ -605,4 +610,9 @@ body {
     .album-box-caption .album-caption-content .album-name {
         font-size: 22px;
     }
+}
+
+.album-image {
+  width: 100%;
+  height: auto;
 }

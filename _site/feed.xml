@@ -4,10 +4,10 @@
     <title>Karen Chui</title>
     <description>Photographer, DJ and entrepreneur. Born in Canada but raised mainly in Hong Kong, currently studying in Birmingham. I have always found myself drawn to exploring the wonders that the visual and musical arts have to offer. This page is simply a portfolio of my work so that it doesn&#39;t remain hidden on a laptop drive somewhere.
 </description>
-    <link>http://karenchui.co.uk/</link>
-    <atom:link href="http://karenchui.co.uk/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 28 Jan 2016 23:01:41 +0000</pubDate>
-    <lastBuildDate>Thu, 28 Jan 2016 23:01:41 +0000</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 28 Jan 2016 23:58:08 +0000</pubDate>
+    <lastBuildDate>Thu, 28 Jan 2016 23:58:08 +0000</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Thu, 28 Jan 2016 11:28:17 +0000</pubDate>
-        <link>http://karenchui.co.uk/jekyll/update/2016/01/28/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://karenchui.co.uk/jekyll/update/2016/01/28/welcome-to-jekyll.html</guid>
+        <link>http://localhost:4000/jekyll/update/2016/01/28/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2016/01/28/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

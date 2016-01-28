@@ -2,4 +2,21 @@
 layout: default
 ---
 
-<h1>{{ albums.title }}</h1>
+<section class="bg-primary album-header" style="background: linear-gradient(rgba(38, 50, 56, 0.85), rgba(38, 50, 56, 0.85)), url('../img/{{ page.pictures[0].image }}') no-repeat center/cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">{{ page.title }}</h2>
+                      <hr class="light">
+                    <p>{{ page.description }}</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+<div class="container text-center">
+{% for picture in page.pictures %}
+  <h4>{{ picture.title }}</h4>
+ <img class="album-image" src="{{ site.url }}/img/{{ picture.image }}"></img>
+{% endfor %}
+</div>
