@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #263238;
+    color: rgba(240,95,64,1);
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -528,7 +528,7 @@ body {
     justify-content: space-between;
     align-content: center;
     align-items: flex-start;
-    min-height: 350px;
+    min-height: 300px;
 }
 
 .soundcloud-box {
